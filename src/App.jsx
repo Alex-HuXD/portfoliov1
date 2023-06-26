@@ -1,13 +1,18 @@
 import './App.css'
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import Nav from './components/Nav'
+import Background from './components/Background'
+import Player from './components/Player'
 
 const router = createBrowserRouter([
     {
         path: '/portfoliov1',
         element: (
             <>
-                <h1>Hello</h1>
+                <Nav />
+                <Background />
                 <Outlet />
+                <Player />
             </>
         ),
         errorElement: <p>Error page</p>,
