@@ -1,22 +1,26 @@
 #playerStats {
     width: 15rem;
-    height: 4rem;
+    height: 5rem;
     position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    top: 3rem;
-    left: 3rem;
+    top: 9rem;
+    left: 5rem;
 }
 
 h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    padding-left: 0.1rem;
 }
 
 h2 {
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+#level {
+    padding-left: 0.1rem;
 }
 
 #playerStats__lines {
@@ -26,7 +30,7 @@ h2 {
 
 #playerStats__lines__thick {
     display: block;
-    background-color: white;
+    background-color: rgb(116, 201, 144);
     height: 0.2rem;
     width: 8.75rem;
 }

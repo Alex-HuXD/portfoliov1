@@ -5,16 +5,16 @@
 }
 
 .avatar.about {
-    height: 89vh;
-    bottom: -8vh;
+    height: 120vh;
+    bottom: -12vh;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .avatar.skills {
     height: 190vh;
-    bottom: -110vh;
-    left: -1.5rem;
+    bottom: -80vh;
+    right: -16rem;
     transform: translateX(0%) scaleX(-1);
 }
 

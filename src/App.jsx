@@ -6,6 +6,7 @@ import Player from './components/Player'
 import About from './components/about/About'
 import Skills from './components/skills/Skills'
 import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
             { path: 'about', element: <About /> },
             { path: 'skills', element: <Skills /> },
             { path: 'projects', element: <Projects /> },
-            { path: 'contact', element: <div>Contact</div> },
+            { path: 'contact', element: <Contact /> },
         ],
     },
 ])
