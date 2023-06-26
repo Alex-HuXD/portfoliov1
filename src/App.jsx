@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Background from './components/Background'
 import Player from './components/Player'
 import About from './components/about/About'
+import Skills from './components/skills/Skills'
 
 const router = createBrowserRouter([
     {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
         children: [
             { index: true, element: <About /> },
             { path: 'about', element: <About /> },
-            { path: 'skills', element: <div>Skills</div> },
+            { path: 'skills', element: <Skills /> },
             { path: 'projects', element: <div>Projects</div> },
             { path: 'contact', element: <div>Contact</div> },
         ],

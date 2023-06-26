@@ -1,5 +1,5 @@
 .menu {
-    width: 19rem;
+    width: 22rem;
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -102,7 +102,10 @@
     padding: 0.5rem 0 0.5rem 1rem;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+    .menu {
+        margin-top: 10rem;
+    }
     .sub-container {
         right: 1rem;
     }
@@ -113,10 +116,13 @@
         height: 2rem;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+    .menu {
+        margin-top: 10rem;
+    }
     .sub-container {
         width: 15rem;
-        top: 20%;
+        top: 10%;
         left: 50%;
         transform: translateX(-50%);
     }
@@ -130,6 +136,7 @@
     .icon-title-container,
     .icon {
         display: none;
+        top: 80vh;
     }
     h1 {
         font-size: 0.8rem;
