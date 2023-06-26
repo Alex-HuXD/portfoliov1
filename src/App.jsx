@@ -3,6 +3,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Nav from './components/Nav'
 import Background from './components/Background'
 import Player from './components/Player'
+import About from './components/about/About'
 
 const router = createBrowserRouter([
     {
@@ -17,8 +18,8 @@ const router = createBrowserRouter([
         ),
         errorElement: <p>Error page</p>,
         children: [
-            { index: true, element: <div>About</div> },
-            { path: 'about', element: <div>About</div> },
+            { index: true, element: <About /> },
+            { path: 'about', element: <About /> },
             { path: 'skills', element: <div>Skills</div> },
             { path: 'projects', element: <div>Projects</div> },
             { path: 'contact', element: <div>Contact</div> },
