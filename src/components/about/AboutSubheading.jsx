@@ -17,7 +17,7 @@ AboutSubheading.propTypes = {
     title: PropTypes.string.isRequired,
     active: PropTypes.bool.isRequired,
     onClick: PropTypes.func,
-    content: PropTypes.string,
+    content: PropTypes.object,
     menuItem: PropTypes.number,
 }
 
